@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\aaron\\Mi Metal Revenant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|c:\\users\\aaron\\mi metal revenant\\assets\\scripts\\player\\player_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|c:\\users\\aaron\\mi metal revenant\\assets\\scripts\\player\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|c:\\users\\aaron\\mi metal revenant\\assets\\scripts\\player\\player_shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player_shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|C:\\Users\\aaron\\Mi Metal Revenant\\assets\\scripts\\player\\bullet_pool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\bullet_pool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|C:\\Users\\aaron\\Mi Metal Revenant\\assets\\scripts\\player\\player_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +23,7 @@
       "RelativeMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\animator_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|c:\\users\\aaron\\mi metal revenant\\assets\\scripts\\player\\player_shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player_shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|c:\\users\\aaron\\mi metal revenant\\assets\\scripts\\player\\player_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|C:\\Users\\aaron\\Mi Metal Revenant\\assets\\scripts\\player\\player_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA4046BF-6324-9AE8-10E2-69217C6F05BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +42,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Bullet.cs",
+              "ToolTip": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T17:27:30.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Bullet_Pool.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Bullet_Pool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Bullet_Pool.cs",
+              "ToolTip": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Bullet_Pool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Bullet_Pool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T16:01:39.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Player_Shoot.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Player_Shoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player_Shoot.cs",
               "ToolTip": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Player_Shoot.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player_Shoot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T01:53:34.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Player_Health.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Player_Health.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player_Health.cs",
@@ -55,34 +88,31 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player_Health.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T01:50:57.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T01:50:57.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Animator_Controller.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Animator_Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Animator_Controller.cs",
               "ToolTip": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Animator_Controller.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Animator_Controller.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T00:10:08.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T00:10:08.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Player_Controller.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Player_Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player_Controller.cs",
               "ToolTip": "C:\\Users\\aaron\\Mi Metal Revenant\\Assets\\Scripts\\Player\\Player_Controller.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player_Controller.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowG4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwIsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T23:17:24.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-13T23:17:24.851Z"
             }
           ]
         }

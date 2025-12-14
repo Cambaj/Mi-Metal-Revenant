@@ -87,6 +87,8 @@ public class PlayerController : MonoBehaviour
         Is_dashing = isDashing;
         Is_idle = !Is_moving && !Is_jumping && !Is_falling && !Is_dashing;
 
+        bool falling = !isGrounded && playerRigidbody.linearVelocity.y < -0.1f;
+
         if (animController != null)
         {
             animController.UpdateAnimation(Is_moving, Is_idle, Is_jumping, Is_falling, Is_dashing);
@@ -114,7 +116,7 @@ public class PlayerController : MonoBehaviour
 //DASH
 private void HandleDashInput(InputAction.CallbackContext context) 
     {
-        if (isGrounded && !isDashing)
+        if (isGrounded && !isDashing && canDash)
         {
             StartCoroutine(DashCoroutine());
         }

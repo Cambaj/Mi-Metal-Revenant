@@ -40,6 +40,8 @@ public class Animator_Controller : MonoBehaviour
         animator.SetBool(Is_fallingHash, Is_falling);
         animator.SetBool(Is_dashingHash, Is_dashing);
 
+        
+
     }
 
 }
