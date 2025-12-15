@@ -58,20 +58,25 @@ public class TurretController : MonoBehaviour
         // Instanciar bala
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
 
-        // Inicializar bala con target y collider de la torreta
+
+        Vector2 direction = (player.transform.position - firePoint.position).normalized;
+
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = direction * bulletSpeed;
+        }
+
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
+
         Bullet_Damage be = bullet.GetComponent<Bullet_Damage>();
         if (be != null)
         {
             be.damage = damageToPlayer;
-            be.speed = bulletSpeed;
-            be.Initialize(player.transform, GetComponent<Collider2D>());
         }
 
-        // Ajuste visual de la bala según dirección
-        Vector2 dir = (player.transform.position - firePoint.position).normalized;
-        Vector3 scale = bullet.transform.localScale;
-        scale.x = Mathf.Sign(dir.x) * Mathf.Abs(scale.x);
-        bullet.transform.localScale = scale;
+
     }
 
     // ------------------------------
