@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pistol_Animator_Controller
+  m_Controller: {fileID: 9100000, guid: f3241b251f41f8045be0649132ed2d71, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: dec07fbf8fe7e8f46a37455c38cb5fb4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2f81385e7529f9d4fada4b539aca9bcc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2a34acbb3f5ef964f85fb2ca59d73f72, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 440fe1ddf334e4244a32047380eb595b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9fd5ca1f7ad9f0c4fa94e8d28ef769fc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 106d096a60d89444182b9a5f0ed317f0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 90063216ddba8014fbdcbb30abda3707, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 73a5893e6898ea34ea46c99e78975545, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c06d8a37526c4a640a0e4333421cda0d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a9390306773bff545887f14bc6f596c6, type: 2}

@@ -3,8 +3,6 @@ using UnityEngine.InputSystem;
 
 public class Player_Shoot : MonoBehaviour
 {
-    private float offset = 1f;
-
     [Header("References")]
     [SerializeField] private Transform firePoint;
     [SerializeField] private SpriteRenderer spriteRenderer;
