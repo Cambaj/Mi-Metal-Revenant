@@ -45,5 +45,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: 'background '
+    uniqueID: 3552373291
+    locked: 0
+  - name: 'background elements '
+    uniqueID: 4012497347
+    locked: 0
+  - name: 'Decorative elements '
+    uniqueID: 387227203
+    locked: 0
+  - name: 'Tilemaps/Platforms '
+    uniqueID: 3057947987
+    locked: 0
+  - name: 'Player '
+    uniqueID: 192296067
+    locked: 0
+  - name: Enemies
+    uniqueID: 278395233
+    locked: 0
   m_RenderingLayers:
   - Default
