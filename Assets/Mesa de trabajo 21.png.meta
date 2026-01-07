@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 9860f2f49496f7341b8ab48a67ded69a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2210763325268198961
+    second: Mesa de trabajo 21_0
+  - first:
+      213: -3218297298071299478
+    second: Mesa de trabajo 21_1
+  - first:
+      213: 5469796989368136225
+    second: Mesa de trabajo 21_2
+  - first:
+      213: -2238427662246041471
+    second: Mesa de trabajo 21_3
+  - first:
+      213: 3814399591774390844
+    second: Mesa de trabajo 21_4
+  - first:
+      213: -8645900433648463139
+    second: Mesa de trabajo 21_5
+  - first:
+      213: -7589613332608323316
+    second: Mesa de trabajo 21_6
+  - first:
+      213: 7480911947010423167
+    second: Mesa de trabajo 21_7
+  - first:
+      213: -3773803450876317300
+    second: Mesa de trabajo 21_8
+  - first:
+      213: 7542736317477899606
+    second: Mesa de trabajo 21_9
+  - first:
+      213: 7271007035604689108
+    second: Mesa de trabajo 21_10
+  - first:
+      213: -6934298090507071544
+    second: Mesa de trabajo 21_11
+  - first:
+      213: -5907658093317317300
+    second: Mesa de trabajo 21_12
+  - first:
+      213: 7650080155947251366
+    second: Mesa de trabajo 21_13
+  - first:
+      213: -5132104083288535512
+    second: Mesa de trabajo 21_14
+  - first:
+      213: -7943452434498753625
+    second: Mesa de trabajo 21_15
+  - first:
+      213: 1530325030275242026
+    second: Mesa de trabajo 21_16
+  - first:
+      213: 7779565234806921735
+    second: Mesa de trabajo 21_17
+  - first:
+      213: 2399361866122958851
+    second: Mesa de trabajo 21_18
+  - first:
+      213: 4172956582615794399
+    second: Mesa de trabajo 21_19
+  - first:
+      213: 4549641841451953946
+    second: Mesa de trabajo 21_20
+  - first:
+      213: 7745945193797803763
+    second: Mesa de trabajo 21_21
+  - first:
+      213: 7353297082994231077
+    second: Mesa de trabajo 21_22
+  - first:
+      213: -5463023313843527947
+    second: Mesa de trabajo 21_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 341
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136821df7853eae10800000000000000
+      internalID: 2210763325268198961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 341
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a5cde98af4653d0800000000000000
+      internalID: -3218297298071299478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 341
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122f9c0b16f98eb40800000000000000
+      internalID: 5469796989368136225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 341
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188aa60a6e18fe0e0800000000000000
+      internalID: -2238427662246041471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a8b1b18387fe430800000000000000
+      internalID: 3814399591774390844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 275
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2dcf01d57930880800000000000000
+      internalID: -8645900433648463139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 275
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01ff4fa2e64ca690800000000000000
+      internalID: -7589613332608323316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_7
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 275
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79388db7c981d760800000000000000
+      internalID: 7480911947010423167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81bf5281c1c0abc0800000000000000
+      internalID: -3773803450876317300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 205
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d45b5b7be2da860800000000000000
+      internalID: 7542736317477899606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 205
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0659c106ec7e460800000000000000
+      internalID: 7271007035604689108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 205
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf08ac40ac64cf90800000000000000
+      internalID: -6934298090507071544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d1c55a348c30ea0800000000000000
+      internalID: -5907658093317317300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 138
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a63086be5b8a2a60800000000000000
+      internalID: 7650080155947251366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 138
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e414df68a17c8b0800000000000000
+      internalID: -5132104083288535512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_15
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 138
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab6d77d81033c190800000000000000
+      internalID: -7943452434498753625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28d17cc18ecc3510800000000000000
+      internalID: 1530325030275242026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 66
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a15a7fc5196fb60800000000000000
+      internalID: 7779565234806921735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 66
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30890e5a7ee3c4120800000000000000
+      internalID: 2399361866122958851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 66
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd241f117e159e930800000000000000
+      internalID: 4172956582615794399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f6ff65623932f30800000000000000
+      internalID: 4549641841451953946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_21
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe56fd2d102f7b60800000000000000
+      internalID: 7745945193797803763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_22
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52789cfccb82c0660800000000000000
+      internalID: 7353297082994231077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 21_23
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5feddaa8d317f24b0800000000000000
+      internalID: -5463023313843527947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mesa de trabajo 21_0: 2210763325268198961
+      Mesa de trabajo 21_1: -3218297298071299478
+      Mesa de trabajo 21_10: 7271007035604689108
+      Mesa de trabajo 21_11: -6934298090507071544
+      Mesa de trabajo 21_12: -5907658093317317300
+      Mesa de trabajo 21_13: 7650080155947251366
+      Mesa de trabajo 21_14: -5132104083288535512
+      Mesa de trabajo 21_15: -7943452434498753625
+      Mesa de trabajo 21_16: 1530325030275242026
+      Mesa de trabajo 21_17: 7779565234806921735
+      Mesa de trabajo 21_18: 2399361866122958851
+      Mesa de trabajo 21_19: 4172956582615794399
+      Mesa de trabajo 21_2: 5469796989368136225
+      Mesa de trabajo 21_20: 4549641841451953946
+      Mesa de trabajo 21_21: 7745945193797803763
+      Mesa de trabajo 21_22: 7353297082994231077
+      Mesa de trabajo 21_23: -5463023313843527947
+      Mesa de trabajo 21_3: -2238427662246041471
+      Mesa de trabajo 21_4: 3814399591774390844
+      Mesa de trabajo 21_5: -8645900433648463139
+      Mesa de trabajo 21_6: -7589613332608323316
+      Mesa de trabajo 21_7: 7480911947010423167
+      Mesa de trabajo 21_8: -3773803450876317300
+      Mesa de trabajo 21_9: 7542736317477899606
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

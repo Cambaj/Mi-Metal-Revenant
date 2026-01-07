@@ -4,8 +4,6 @@ using UnityEngine.UI;
 
 public class Player_Health : MonoBehaviour
 {
-
-
     public int maxHealth = 100;
     private int currentHealth;
 

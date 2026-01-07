@@ -40,17 +40,31 @@ public class Bullet_Damage : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("La bala toco algo llamado:" + collision.gameObject.name); //Esto despues cambiarlo a ingles
         // Colisión con jugador
         if (collision.CompareTag("Player"))
         {
-            Player_Health health = collision.GetComponent<Player_Health>();
-            if (health != null)
-                health.TakeDamage(damage);
+            Debug.Log("Es el player intendando dañar");
 
-            gameObject.SetActive(false);
+            Player_Health health = collision.GetComponent<Player_Health>();
+            
+            if (health != null)
+            {
+                health.TakeDamage(damage);
+                gameObject.SetActive(false);
+            }
+            else
+            {
+                Debug.LogError("El objeto tienen Tag 'Player' pero NO tiene el script 'Player Health' puesto.");
+            }
+      
         }
         // Colisión con balas del jugador
         else if (collision.CompareTag("Bullet"))
+        {
+            gameObject.SetActive(false);
+        }
+        else if (collision.CompareTag("Ground") || collision.CompareTag("Wall"))
         {
             gameObject.SetActive(false);
         }

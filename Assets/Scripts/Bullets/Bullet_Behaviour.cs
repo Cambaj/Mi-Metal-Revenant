@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System;
 
-public class Bulle_Behaviour : MonoBehaviour
+public class Bullet_Behaviour : MonoBehaviour
 {
     [Header("Configuration")]
     [Tooltip("Time seconds before the bullet recycles if doesn't collisions with anything")]
