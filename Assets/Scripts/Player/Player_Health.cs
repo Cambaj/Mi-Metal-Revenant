@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -13,8 +14,18 @@ public class Player_Health : MonoBehaviour
     public float damageCooldown = 2f;
     private float lastDamageTime = -10f;
 
+    [Header("Visual Effects")]
+    private SpriteRenderer spriteRenderer;
+    private Color originalColor;
+
     private void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+        {
+            originalColor = spriteRenderer.color;
+        }
+
         string sceneName = SceneManager.GetActiveScene().name;
 
         // Si empezás el Nivel 1, siempre vida máxima
@@ -48,12 +59,33 @@ public class Player_Health : MonoBehaviour
 
         UpdateHealthBar();
 
+        StartCoroutine(FlashRedEffect());
+
         PlayerPrefs.SetInt("PlayerHealth", currentHealth);
         PlayerPrefs.Save();
 
         Debug.Log("vida: " + currentHealth);
         if (currentHealth <= 0)
             Die();
+    }
+
+    //red effect on player
+    private IEnumerator FlashRedEffect()
+    {
+
+        if (spriteRenderer == null)
+        {
+            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        }
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.material.color = Color.red;
+
+            Debug.Log("PAINTED RED");
+
+            yield return new WaitForSeconds(0.2f);
+            spriteRenderer.material.color = Color.white;
+        }
     }
 
     public void Heal(int amount)
