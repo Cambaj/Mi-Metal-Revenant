@@ -79,7 +79,7 @@ public class Player_Health : MonoBehaviour
         }
         if (spriteRenderer != null)
         {
-            spriteRenderer.material.color = Color.red;
+            spriteRenderer.material.color = new Color(1f, 0.5f, 0.5f);
 
             Debug.Log("PAINTED RED");
 

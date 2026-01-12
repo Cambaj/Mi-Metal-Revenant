@@ -1847,7 +1847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   healthBarFill: {fileID: 0}
-  damageCooldown: 2
+  damageCooldown: 0
 --- !u!1001 &481558688332507830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1970,6 +1970,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 132014421742694323, guid: 654d77460653c374eae5d4da43933257, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 4525929474871628784, guid: 654d77460653c374eae5d4da43933257, type: 3}
       propertyPath: m_Name
       value: Player
