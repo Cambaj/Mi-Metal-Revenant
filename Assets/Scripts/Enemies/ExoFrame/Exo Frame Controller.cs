@@ -110,10 +110,11 @@ public class ExoFrameController : MonoBehaviour
         }
 
         Transform targetPoint = patrolPoints[currentPatrolIndex];
-        Vector2 direction = (targetPoint.position - transform.position).normalized;
-        rb.linearVelocity = direction * (moveSpeed * 0.5f);
 
-        if (Vector2.Distance(transform.position, targetPoint.position) < 0.2f)
+        float directionX = Mathf.Sign(targetPoint.position.x - transform.position.x);
+        rb.linearVelocity = new Vector2(directionX * (moveSpeed * 0.5f), rb.linearVelocity.y);
+
+        if (Mathf.Abs(transform.position.x - targetPoint.position.x) < 0.2f)
         {
             currentPatrolIndex++;
             if (currentPatrolIndex >= patrolPoints.Length)

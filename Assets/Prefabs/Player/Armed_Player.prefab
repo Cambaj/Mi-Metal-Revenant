@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 3207461260948612139, guid: c2786995daf9cb448a6b713d95338b12, type: 3}
+    - target: {fileID: 2284812743990060213, guid: 654d77460653c374eae5d4da43933257, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2284812743990060213, guid: 654d77460653c374eae5d4da43933257, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.16
+      objectReference: {fileID: 0}
     - target: {fileID: 4525929474871628784, guid: 654d77460653c374eae5d4da43933257, type: 3}
       propertyPath: m_Name
       value: Armed_Player
